@@ -44,6 +44,34 @@ body{
 .header_about_name{
 	font-size: 47.3392px;
 	line-height: 59px;
+	position: relative;
+}
+..header_about_name p{
+	vertical-align: text-bottom;
+	position: absolute;
+	bottom: 0;
+}
+.header_about_proficience{
+	font-size: 18px;
+	display: flex;
+	align-items: flex-end;
+	/*font-family: Gilroy-Medium;*/
+}
+.header_lang{
+	display: flex;
+	align-items: flex-end;
+}
+.header_lang_content{
+	transform: rotate(270deg);
+}
+.w-33{
+	width: 33%;
+}
+.vert-m-20{
+	margin: 20px 0;
+}
+.gray{
+	color: #828282;
 }
 @font-face {
 	font-family: 'Gilroy-Bold';
