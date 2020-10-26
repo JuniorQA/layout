@@ -4,6 +4,12 @@ body{
 	background: #FFFFFF;
 	font-family: Gilroy-Bold;
 }
+.backround-white{
+	background: #FFFFFF;
+}
+.background-gray{
+	background: #F6F6F6;
+}
 .container{
 	width: 70%;
 	margin: 0 auto;
@@ -41,28 +47,26 @@ body{
 .flex{
 	display: flex;
 }
-.header_about_name{
+.header-about-name{
 	font-size: 47.3392px;
 	line-height: 59px;
-	position: relative;
 }
-..header_about_name p{
-	vertical-align: text-bottom;
-	position: absolute;
-	bottom: 0;
+.header-about-name-content{
+	margin-bottom: -9px;
 }
-.header_about_proficience{
+.header-about-proficiency{
 	font-size: 18px;
 	display: flex;
 	align-items: flex-end;
 	/*font-family: Gilroy-Medium;*/
 }
-.header_lang{
+.header-lang{
 	display: flex;
 	align-items: flex-end;
 }
-.header_lang_content{
-	transform: rotate(270deg);
+.header-lang-content{
+	writing-mode: tb-rl;
+	transform: rotate(180deg);
 }
 .w-33{
 	width: 33%;
@@ -70,8 +74,33 @@ body{
 .vert-m-20{
 	margin: 20px 0;
 }
+.m-top-60{
+	margin-top: 60px;
+}
+.m-bottom-100{
+	margin-bottom: 100px;
+}
 .gray{
 	color: #828282;
+}
+.man-img{
+	width: 100%;
+	height: 100%;
+}
+.flex-dir-row{
+	flex-direction: column;
+}
+.align-items-center{
+	align-items: center;
+}
+.vert-p-90{
+	padding: 90px 0;
+}
+.p-20{
+	padding: 20px;
+}
+.align-text-center{
+	text-align: center;
 }
 @font-face {
 	font-family: 'Gilroy-Bold';
