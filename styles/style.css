@@ -117,6 +117,17 @@ body{
 .p-5{
 	padding: 5px;
 }
+.padding-for-portfolio-header{
+	padding-top: 110px;
+	padding-bottom: 50px;
+}
+.padding-for-portfolio-images{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.underlined{
+	text-decoration: underline;
+}
 @font-face {
 	font-family: 'Gilroy-Bold';
 	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
