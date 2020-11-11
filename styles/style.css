@@ -154,6 +154,12 @@ body{
 	top: 40px;
 	display: none;
 }
+.man-img-mobile{
+	display: none;
+}
+.align-block-center{
+	margin: 0 auto;
+}
 @font-face {
 	font-family: 'Gilroy-Bold';
 	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */

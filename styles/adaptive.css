@@ -14,5 +14,10 @@
 	.mobile-menu{
 		display: block;
 	}
-
+	.man-img{
+		display: none;
+	}
+	.man-img-mobile{
+		display: inline;
+	}
 }
