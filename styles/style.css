@@ -146,6 +146,14 @@ body{
 .flex-wrap-wrap{
 	flex-wrap: wrap;
 }
+.float-right{
+	float: right;
+}
+.mobile-menu{
+	position: relative;
+	top: 40px;
+	display: none;
+}
 @font-face {
 	font-family: 'Gilroy-Bold';
 	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
