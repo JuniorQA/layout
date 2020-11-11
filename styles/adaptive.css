@@ -20,4 +20,10 @@
 	.man-img-mobile{
 		display: inline;
 	}
+	.container{
+		width: 90%;
+	}
+	.social-media-items div{
+		padding: 10px;
+	}
 }
