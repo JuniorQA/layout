@@ -26,4 +26,7 @@
 	.social-media-items div{
 		padding: 10px;
 	}
+	.open-mobile-menu{
+		display: none;
+	}
 }
