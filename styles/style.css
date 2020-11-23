@@ -31,7 +31,7 @@ body{
 .menu ul .black, .mobile-menu-opened ul .black{
 	color: black;
 }
-.menu ul li, .mobile-menu-opened ul li{
+.menu ul li{
 	font-size: 18px;
 	line-height: 22px;
 	list-style: none;
@@ -161,18 +161,36 @@ body{
 .mobile-menu-opened{
 	width: 100vw;
 	height: 100vh;
-	background-color: orange;
-	align-items: center;
+	background-color: #fff;
 	position: absolute;
 	top: 0;
 	left: 0;
+	font-size: 28px;
 }
 .mobile-menu-opened ul li{
-	margin: 0 auto;
-	width: 100%;
+	padding-top: 60px;
+	display: block;
+	margin: 0 20px;
+	width: 50%;
+	text-align: left;
 }
 .display-none{
 	display: none;
+}
+.close-menu-button{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+.close-menu-img{
+	width: 20px;
+	height: 20px;
+}
+.header-lang-mobile{
+	justify-content: flex-end;
+}
+.header-lang-mobile .header-lang-content{
+	transform: rotate(0deg);
 }
 @font-face {
 	font-family: 'Gilroy-Bold';

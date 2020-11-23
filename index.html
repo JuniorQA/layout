@@ -15,14 +15,20 @@
 			<div class="mobile-menu vert-m-20" onclick="open_mobile_menu()">
 				<a href="#"><img class="float-right" src="images/mobile-menu.png"></a>
 			</div>
-			<div class="mobile-menu-opened">
-				<ul class="flex space-between flex-dir-column">
-					<li><a href="#" class="black">Home</a></li>
-					<li class="text-nowrap"><a href="#">About me</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contacts</a></li>
-				</ul>
+			<div class="mobile-menu-opened display-none flex space-between flex-dir-column">
+				<div class="close-menu-button" onclick="close_mobile_menu()"><a href="#"><img class="close-menu-img" src="images/cancel.png"></a></div>
+				<div>
+					<ul class="flex space-between flex-dir-column">
+						<li><a href="#" class="black">Home</a></li>
+						<li class="text-nowrap"><a href="#">About me</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="header-lang-mobile p-20 flex">
+					<p class="header-lang-content"><a href="#"><span class="gray">RU</span> | ENG</a></p>		
+				</div>
 			</div>
 			<nav class="menu menu-container">
 				<ul class="flex space-between align-block-center">
