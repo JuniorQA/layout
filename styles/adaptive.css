@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 799px){
 	body{
 		overflow-x: hidden;
 	}
@@ -11,7 +11,7 @@
 	.menu{
 		display: none;
 	}
-	.mobile-menu{
+	.mobile-menu-icon{
 		display: block;
 	}
 	.man-img{
@@ -27,6 +27,15 @@
 		padding: 10px;
 	}
 	.display-none{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 800px){
+	body{
+		overflow: auto;
+	}
+	.mobile-menu-opened{
 		display: none;
 	}
 }
